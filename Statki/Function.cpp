@@ -73,10 +73,6 @@ int root( int** pTab, int nRow, int nCol, int nDepth, int x, int y, int** pRoot,
 
 			
 		}
-		/*	zdefiniowac nowe wspolrzedne
-	sprawdzic wszyskie mozliwosci ruchu
-	jesli ruch jest mozliwy w zadanym kierunku - wykorzystac funkcje move
-	jesli wykonanie kolejnego kroku sie powiodlo rekurencyjnie root()*/
 
 	pRoot[y][x] = 2;
 		return 0;
